@@ -6,7 +6,7 @@ describe('Kamino Demo App', function() {
 // var latestResult = element(by.binding('latest'));
 // var history = element.all(by.repeater('result in memory'));
 
-/*var ptor = protractor.getInstance();
+//var ptor = protractor.getInstance();
 var home = element(by.id('home-link'));
 var promotion = element(by.id('promotion-link'));
 var menu = element(by.id('menu-link'));
@@ -15,7 +15,7 @@ var kitchen = element(by.id('kitchen-link'));
 var receipt = element(by.id('receipt-link'));
 var payment = element(by.id('payment-link'));
 var login = element(by.id('login-link'));
-*/
+
 //  function add(a, b) {
 //  firstNumber.sendKeys(a);
 //  secondNumber.sendKeys(b);
@@ -32,9 +32,10 @@ var login = element(by.id('login-link'));
 
    /*it('should route to homepage', function() {
       home.click();
-        ptor.waitForAngular();
       expect(browser.getCurrentUrl()).toEqual('http://localhost:3000/');
     });
+    
+    
     
     it('should route to promotion', function() {
         promotion.click();

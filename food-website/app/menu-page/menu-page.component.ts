@@ -12,7 +12,7 @@ export class MenuPageComponent{
   addeditemArray =[];
   haha(event){
   this.addeditemArray.push(event);
-  console.log(event);
+  console.log(this.addeditemArray);
 }
 
 

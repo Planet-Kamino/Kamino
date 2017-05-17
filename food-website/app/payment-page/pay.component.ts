@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { FoodListComponent } from '../menu-page/food-list-section/food-list.component';
 
 @Component({
     selector: 'pay-page',
@@ -6,4 +7,8 @@ import { Component } from '@angular/core';
     styleUrls: ['app/payment-page/pay.component.css'],
 
 })
-export class PaymentComponent{}
+    
+export class OrderListComponent {
+  @Input() namefoodArray;
+
+}

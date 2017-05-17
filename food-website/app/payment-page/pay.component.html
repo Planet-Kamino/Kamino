@@ -6,7 +6,11 @@
         <section class="container">
             <div class="order">
                 <h3>Order:</h3>
-                <div class="items">Insert Items here.</div>
+                <ul class="ds-btn" *ngFor="let allInfo of namefoodArray">
+        <li>
+         <p><button class="w3-button w3-black w3-round-xxlarge" ><span>{{allInfo.name}} {{allInfo.price}}</span></button></p> 
+        </li>
+                </ul>
             </div>
 
             <div class="form">
@@ -25,7 +29,7 @@
                         <input type="radio" name="option" id="delivery"><label for="delivery">Delivery</label>
                     </div>
 
-                    <input type="submit">
+                    <button (click)="test">submit</button>
                 </form>
             </div>
         </section>
