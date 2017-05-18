@@ -22,20 +22,18 @@ var login = element(by.id('login-link'));
 //    goButton.click();
   
 
-  beforeEach(function() {
+ /* beforeEach(function() {
     browser.get('http://localhost:3000/');
   });
-    
+*/
     it('should have a title', function(){
         expect(browser.getTitle()).toEqual('MeWL');
     });
 
-   /*it('should route to homepage', function() {
+/*    it('should route to homepage', function() {
       home.click();
-      expect(browser.getCurrentUrl()).toEqual('http://localhost:3000/');
+      expect(browser.driver.getCurrentUrl()).toEqual('http://localhost:3000/');
     });
-    
-    
     
     it('should route to promotion', function() {
         promotion.click();
