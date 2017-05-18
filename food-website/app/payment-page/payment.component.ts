@@ -8,7 +8,7 @@ import { FoodListComponent } from '../menu-page/food-list-section/food-list.comp
 
 })
     
-export class OrderListComponent {
+export class PaymentComponent {
   @Input() namefoodArray;
 
 }

@@ -6,7 +6,7 @@ import { MenuPageComponent } from './menu-page/menu-page.component';
 import { KitchenPageComponent } from './kitchen-page/kitchen-page.component';
 import { LoginPageComponent } from './login-page/login.component';
 import { FrontPageComponent } from './front-page/front.component';
-import { PaymentComponent } from './payment-page/pay.component';
+import { PaymentComponent } from './payment-page/payment.component';
 import { ReceiptPageComponent } from './receipt-page/receipt.component';
 
 const appRoutes: Routes = [
