@@ -19,7 +19,7 @@ import { AdOneComponent } from './front-page/ads/first/adone.component';
 import { KitchenPageComponent } from './kitchen-page/kitchen-page.component';
 
 //Payment page components
-import { PaymentComponent } from './payment-page/pay.component';
+import { PaymentComponent } from './payment-page/payment.component';
 
 //Promotion page components
 import { PromotionPageComponent } from './promotion-page/promotion-page.component';

@@ -3,8 +3,8 @@ import { FoodListComponent } from '../menu-page/food-list-section/food-list.comp
 
 @Component({
     selector: 'pay-page',
-    templateUrl: 'app/payment-page/pay.component.html',
-    styleUrls: ['app/payment-page/pay.component.css'],
+    templateUrl: 'app/payment-page/payment.component.html',
+    styleUrls: ['app/payment-page/payment.component.css'],
 
 })
     
