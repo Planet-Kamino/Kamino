@@ -6,7 +6,7 @@ describe('Kamino Demo App', function() {
 // var latestResult = element(by.binding('latest'));
 // var history = element.all(by.repeater('result in memory'));
 
-<<<<<<< HEAD
+
 //var ptor = protractor.getInstance();
 
 var home = element(by.id('home-link'));
