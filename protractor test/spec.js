@@ -6,6 +6,9 @@ describe('Kamino Demo App', function() {
 // var latestResult = element(by.binding('latest'));
 // var history = element.all(by.repeater('result in memory'));
 
+
+//var ptor = protractor.getInstance();
+
 var home = element(by.id('home-link'));
 var promotion = element(by.id('promotion-link'));
 var menu = element(by.id('menu-link'));
@@ -22,9 +25,15 @@ var login = element(by.id('login-link'));
     browser.get('http://localhost:3000/');
   });
 
+
+
+
     it('should have a title', function(){
         expect(browser.getTitle()).toEqual('MeWL');
     });
+
+
+  it('should route to homepage', function() {
 
   it('should route to homepage', function() {
       home.click();
